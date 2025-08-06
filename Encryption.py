@@ -100,7 +100,7 @@ def main() -> None:
         if task == 'encrypt':
             message = get_message()
             encrypted = encrypt(message)
-            print('Ciphettext is: ', encrypted)
+            print('Ciphertext is: ', encrypted)
         elif task == 'decrypt':
             message = get_message()
             decrypted = decrypt(message)
